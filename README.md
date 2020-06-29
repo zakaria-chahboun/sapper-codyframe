@@ -80,17 +80,11 @@ We want the *style.scss* and *util.js* later.
 
 Add these lines in the *template.html* file inside *src* folder:
 
-* in metadata section
+* in header section
 
 ```html
 <!--  cody framework	 -->
 <script>document.getElementsByTagName("html")[0].className += " js";</script>
-```
-* after `</body>` tag
-
-```html
-<!--  cody framework	 -->
-<script src="codyframe/util.js"></script>
 ```
 
 ### Sapper Layout File
