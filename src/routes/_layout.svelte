@@ -4,10 +4,16 @@
 	export let segment;
 </script>
 
-<!-- candy framework SASS - Global -->
+<!-- candy framework Scss - Global -->
 <style lang="scss" global>
 @import "./codyframe/assets/css/style.scss"
 </style>
+
+<!--  cody framework - js library -->
+<svelte:head>
+    <script defer src="codyframe/util.js"></script>
+</svelte:head>
+
 
 <!--<style>
 	main {

@@ -23,6 +23,8 @@ If you have this issue *[UnhandledPromiseRejectionWarning: Error: No valid expor
 
 Also if you don't have **Polka** install it by `npm install --save polka`
 
+You can use **express js** instead of *Polka*, learn how to do that from this [Youtube video](https://youtu.be/kiou6WVYswM)
+
 ### Dependencies for SASS compiler
 * svelte-preprocess
 * autoprefixer
@@ -98,10 +100,19 @@ Add these lines in the *template.html* file inside *src* folder:
 In **_layout.svelte** file inside of *routes* folder, Add these lines directly after`<script>...</script>` lines:
 
 ```html
-<!-- candy framework SASS - Global -->
+<!-- candy framework Scss - Global -->
 <style lang="scss" global>
 @import "./codyframe/assets/css/style.scss"
 </style>
+```
+
+Also add important javascript libraries like this:
+
+```html
+<!--  cody framework - js library -->
+<svelte:head>
+    <script defer src="codyframe/util.js"></script>
+</svelte:head>
 ```
 
 ### Last Step!
