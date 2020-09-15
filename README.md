@@ -156,7 +156,7 @@ Each time you have to switch to another route, You have to be sure that the link
 <a rel="external" href="/profile">
 ```
 
-#### Enjoy! You can buy me a [coffee 🐿](paypal.me/zakariachahboun) 💕
+#### Enjoy! You can buy me a [coffee 🐿](https://paypal.me/zakariachahboun) 💕
 
 -----------------------------
 Big Thanks to *Sean Schertell*, He wrote a great [article](https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9) about Sapper & Sass :blush: 
