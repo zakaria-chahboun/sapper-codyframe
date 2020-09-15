@@ -1,30 +1,24 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-
+    import { onMount } from "svelte";
 	export let segment;
+
+  let codyFrameScripts = "";
+  onMount(async () => {
+    // ---- To mount the CodyFrame scripts ----
+    codyFrameScripts = "codyframe/util.js";
+  });
 </script>
 
-<!-- candy framework Scss - Global -->
+<!-- Codyframework Global Scss -->
 <style lang="scss" global>
 @import "./codyframe/assets/css/style.scss"
 </style>
 
-<!--  cody framework - js library -->
+<!--  cody framework - js libraries -->
 <svelte:head>
-    <script defer src="codyframe/util.js"></script>
+    <script defer src={codyFrameScripts}></script>
 </svelte:head>
-
-
-<!--<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>-->
 
 <Nav {segment}/>
 
