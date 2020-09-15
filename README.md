@@ -3,7 +3,7 @@
 <img src="./explanation/sapper and codyframe.png">
 
 
-This project is a template for Sapper if you want to work with CodyFrame framework ([from Cody House](https://codyhouse.co/ds/docs/framework)) and you want to compile the **SASS files** and useing it directly with **Rollup** 👌
+This project is a template for Sapper if you want to work with CodyFrame framework UI ([From Cody House](https://codyhouse.co/ds/docs/framework)), And you want to compile the **SASS files** and using it directly with **Rollup** 👌
 
 -------------------------------
 
